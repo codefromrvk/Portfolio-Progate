@@ -1,0 +1,169 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color:white;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.header-logo {
+    font-size: 40px;
+    font-family:monospace;
+    float: left;
+    padding: 0 20px;
+    margin: 6px auto;
+}
+
+.header-list {
+   
+    float: left;
+    padding:20px;
+
+}
+header{
+    background-color:black ;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    opacity: 0.5;
+    /* border: 2px solid #c71a1a; */
+    z-index: 10;
+}
+  
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.list-item{
+    padding: 8px;
+    font-size: 17px;
+    margin: 9px;
+}
+#welcome-section{
+    padding: 205px 0 500px 0;
+    margin:  0px;
+    background-image: url("images/myimage.jpg");
+    background-size: cover;
+    /* border:5px solid green; */
+    text-align: center;
+}
+.intro{
+    margin: 26px 5px;
+    padding: 7px 0px;
+    float: right;
+}
+.intro h1{
+    font-size: 48px;
+}
+.intro p{
+    font-size: 19px;
+    margin-top: -21px;
+}
+#project-section{
+    background-color: #060203;
+    margin: auto;
+   
+}
+.project-title{
+    text-align: center;
+    padding: 20px ;
+    margin: 10px auto;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+}
+.project-icon img{
+    /* border: 2px solid gray; */
+    opacity: 0.5;
+}
+.project-icon img:hover{
+    opacity: 0.8;
+}
+.projects{
+    display: flex;
+}
+ .project{
+    flex: auto;
+}
+.project-icon {
+    text-align: center;
+    position: relative;
+}
+.project-icon p{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+  
+
+}
+.contacts{
+    text-align:center;
+
+}
+.social-media{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+
+}
+.social-media-icon{
+    flex: auto;
+}
+.contact-header{
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+}
+#contact-section{
+    background-color: #060203;
+}
+.social-media-icon img{
+    width: 130px;
+    
+}
+hr{
+    width: 70%;
+}
+footer{
+text-align: center;
+}
+@media all and (max-width: 670px) {
+    #welcome-section{
+        padding: 128px 0px 190px 15px;
+        margin: 0px 0px;
+    }
+    .header-list{
+        display: none;
+    }
+    .intro h1{
+        font-size: 25px;
+    }
+    .projects{ 
+        display: flex;
+        flex-direction: column; 
+        padding: 20px 20px;
+        margin: 20px; 
+    }
+    .project-icon img{
+        width: 150px;
+    }
+    .social-media{
+            display: flex;
+            flex-direction: column; 
+    }
+}  
